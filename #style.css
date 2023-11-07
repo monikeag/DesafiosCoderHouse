@@ -1,3 +1,14 @@
 *{
     margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e06e2b;
+    height: 100vh;
+    
+}
+
+header h1 {
+    font-size: 20px;
 }
