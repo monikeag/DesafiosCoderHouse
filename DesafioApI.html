@@ -4,108 +4,186 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="Receita, Pão de Queijo, Tapioca, Air Fryer, tecnologia">
-    <meta name="description" content="Receita de Pão de Queijo de Tapioca na Air Fryer">
-    <link rel="stylesheet" href="#style.css">
-    <title>Meu título</title>
-
-    <title>Aula22 - Desafio </title>
+    <link rel="stylesheet" href="estilo.css">
+    <meta name="keywords" content="viagem, destinos, pacotes">
+    <script src="https://kit.fontawesome.com/05225bdfdf.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo.css">
+    <title>DesafioAPI </title>
 </head>
 
 <body>
-    <header>
-        <h1> Dados Pessoais: </h1>
-        <ul>
-            <li> <strong>Nome:</strong> Monique Aguiar</li>
-            <li> <strong>Profissão:</strong> Web Desgner</li>
-            <li> <strong>Signo:</strong> Aquário</li>
-            <li> <strong>Netflix:</strong> Documentário</li>
+    <nav class="navbar navbar-dark bg-black">
+        <ul class="nav nav-pills" id="pills-tab" role="tablist">
+            <li class="nav-item">
+                <a href="index.html"><img src="./imagens/logotw.png" alt="Logo TW"></a>
+            </li>
         </ul>
-    </header>
-    <hr />
-    <section>
-        <h3> Receita de Pão de Queijo de Tapioca na Air Fryer</h3>
-        <h5>Ingredientes: </h5>
-        <ul>
-            <li> 325 gramas de goma de tapioca</li>
-            <li> 150 gramas de queijo parmesão</li>
-            <li> 100 gramas de linguiça calabresa processada</li>
-            <li> 200 gramas de requeijão</li>
-            <li> Sal a gosto</li>
+        <ul class="nav nav-pills" id="pills-tab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link" id="pills-home-tab" href="index.html" role="tab" aria-controls="pills-home"
+                    aria-selected="true">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="pills-profile-tab" href="blog.html" role="tab" aria-controls="pills-profile"
+                    aria-selected="false">Blog</a>
+            </li class="nav-item">
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                <button class="btn btn-primary " type="submit"><img src="./imagens/busca.png" alt="busca"></button>
+            </form>
+            <li>
+                <a href="#"></a>
+            </li>
         </ul>
 
-        <h5>Modo de Preparo: </h5>
-        <ol>
-            <li> Em uma tigela, misture goma de tapioca, queijo parmesão, linguiça calabresa, <br> requeijão e sal a
-                gosto.
-                Leve à geladeira por 20 minutos.</li>
-            <li> Unte as mãos com óleo e modele a massa em pequenas bolinhas.</li>
-            <li> Coloque papel-manteiga no fundo da air fryer, coloque os pães de queijo e asse <br>a 180 graus Celsius
-                por 10 minutos.</li>
-
-        </ol>
-        <img src="pao-de-queijo-de-tapioca-na-air-fryer.webp" alt="Pão de queijo na Air Fryer"> <br>
-        <a
-            href="https://receitas.globo.com/tipos-de-prato/paes-e-salgados/pao-de-queijo-de-tapioca-recheado-na-air-fryer.ghtml">
-            Confira a receita aqui!</a>
-    </section>
-    <br>
-    <br>
-    <hr />
-    <section>
-        <h1> Tabela de preços: </h1>
-
-        <table border>
-            <tr> <!-- início da linha do cabeçalho-->
-                <th>PRODUTO</th>
-                <th>PREÇO UNIT.</th>
-                <th>QDT EM ESTOQUE </th>
-            </tr><!-- final da linha do cabeçalho-->
-            <tr><!-- início da primeira linha-->
-                <td>HD Sata 80GB</td>
-                <td>R$ 85,00</td>
-                <td>35</td>
-            </tr><!-- final da primeira linha -->
-            <tr><!-- início da segunda linha-->
-                <td>Pen Drive 2GB</td>
-                <td>R$ 15,00</td>
-                <td>150</td>
-            </tr><!-- final da segunda linha -->
-            <tr><!-- início da segunda linha-->
-                <td>Impressora Laser <br>Colorida</td>
-                <td>R$ 613,99</td>
-                <td>18</td>
-            </tr><!-- final da segunda linha -->
-            <tr><!-- início da segunda linha-->
-                <td>Monitor LCD 17'</td>
-                <td>R$ 309,00 </td>
-                <td>41</td>
-            </tr><!-- final da segunda linha -->
-        </table>
-
-    </section>
-    <br>
-    <hr />
-    <article>
-        <h1> <u> Notícias: </u> </h1>
-        <h2> Mercado de TI em expansão impulsiona <br> busca por <u> profissionais qualificados.</u></h2>
-        <p> O mercado de Tecnologia da Informação está em ascensão. Até 2024, o Brasil precisará de aproximadamente 420
-            mil profissionais da área, de acordo <br> com uma pesquisa realizada pela Associação Brasileira das Empresas de
-            Tecnologia da Informação e Comunicação (Brasscom). <br>Entretanto, ainda segundo o estudo, o país forma apenas
-            46 mil especialistas capacitados para trabalhar nesse nicho por ano. <a href="https://gauchazh.clicrbs.com.br/educacao-e-emprego/conteudo-de-marca/2022/10/mercado-de-ti-em-expansao-impulsiona-busca-por-profissionais-qualificados-cl9ix90l0004c013ps0jhay10.html"> <br>
-                >> Leia a máteria na íntegra << </a> <br> </p>
-           
-        <img src="Imagem de ti.jpg"    alt="Pessoas trabalhando em uma empresa com computadores"> <br>
+        <ul class="nav nav-pills" id="pills-tab" role="tablist">
+            <li class="nav-item">
+                <a class="btn btn-primary" href="cadastro.html" role="button">Cadastro</a>
+            </li>
+            <li class="nav-item">
+                <a class="btn btn-primary" href="login.html" role="button">Login</a>
+            </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">...
+            </div>
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
+            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
+        </div>
+    </nav>
+    <div>
+        <a> <img class="imga" src="Imagens Home/Imagem-Home-Topo.jpg" alt="imagemhome"></a>
         
-    </article>
-    <br>
-    <hr />
-    <footer>
-        <p> Feito por: Monique Aguiar</p>
-        <p> Em: Setembro/2023 </p>
-        <p> Email: monique@coderhouse.com.br</p>
-        <p> Contato: (21) 99999-9999</p>
-    </footer>
-</body>
+    </div>
 
-</html>
+    <section class="galeria">
+        <div class="imagens">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="Imagens Home/Imagem-buzios.jpg" alt="Imagem de capa do card">
+                <div class="card-body">
+                  <h5 class="card-title">O que fazer em Búzios</h5>
+                  <p class="card-text">Venha conhecer o melhor de Búzios.<br> Veja os melhores Roteiros</p>
+                  <a href="blog.html" class="btn btn-primary">Visitar</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="Imagens Home/Imagem-espanha.jpg" alt="Imagem de capa do card">
+                <div class="card-body">
+                  <h5 class="card-title">O que fazer na Espanha</h5>
+                  <p class="card-text">Venha conhecer o melhor da Espanha.<br> Veja os melhores Roteiros</p>
+                  <a href="blog.html" class="btn btn-primary">Visitar</a>
+                </div>
+            </div>
+            
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="Imagens Home/Imagem-paris.jpg" alt="Imagem de capa do card">
+                <div class="card-body">
+                  <h5 class="card-title">O que fazer em Paris à Noite?</h5>
+                  <p class="card-text">Venha conhecer o melhor da noite de Paris.<br> Veja os melhores Roteiros</p>
+                  <a href="blog.html" class="btn btn-primary">Visitar</a>
+                </div>
+            </div>
+        </div>    
+    </section>
+    <section class="vidas">
+        <div class="trio-imagens">
+            <a> <img src="Imagens Home/TrioDeFotos.png" width="500" height="400">
+
+        </div>
+        <h1 class="colaborador"> Seja nosso colaborador  </h1>
+        <p> Somos uma plataforma de Blog de viagens digital que oferece uma ampla variedade de dicas,
+            desde a
+            reserva de pacotes turísticos até a acomodação em hotéis, passagens aéreas e excursões emocionantes.
+            Nossa abordagem tecnológica visa simplificar a organização de viagens, <br>proporcionando a todos aqueles
+            que sonham
+            em explorar novos destinos uma experiência descomplicada e prazerosa.
+        </p>
+        <a href="cadastro.html"><button onclick="myFunction()" class="cadastro"> Cadastre-se </button> </a>
+
+    </section>
+    <section class="background">
+        <h1 class="text-back"> Por que pesquisar na TW? </h1>
+        <h5> Veja no que a TW Turismmo pode agregar na sua experiência de viagem.<br> Nós estamos aqui para deixar sua
+            viagem mais divertida e única.</h5>
+            <div class="imagens-icones">
+                <div class="imag.circulo">
+                    <img src="Imagens Home/icone avião.svg">
+                    <h4> Melhor Voo</h4>
+                    <h6> Descubra os melhores <br> voos com agente </h6>
+                </div>
+                <div>
+                    <img src="Imagens Home/icone seguro.svg">
+                    <h4> Maiores aventuras</h4>
+                    <h6> Descubra os melhores <br> voos com agente </h6>
+                </div>
+                <div>
+                    <img src="Imagens Home/Icone pessoa.svg">
+                    <h4> Seguro de Viagem</h4>
+                    <h6> Descubra os melhores <br> voos com agente </h6>
+                </div>
+                <div>
+                    <img src="Imagens Home/icone comentário.png">
+                    <h4> Suporte Pós Compra</h4>
+                    <h6> Descubra os melhores <br> voos com agente </h6>
+                </div>
+
+
+            </div>
+
+    </section>
+    <section class="comunidade">
+        <h1> O que dizem nossa comunidade?</h1>
+        <a><img src="Imagens Home/comentario-aguiar.svg" alt="comentário"></a>
+        <a><img src="Imagens Home/comentario-paulo-cesar.svg" alt="comentário"></a>
+        <a><img src="Imagens Home/comentario-marcela.svg" alt="comentário"></a>
+
+    </section>
+    <section class="new">
+        <h1> Assine nossa Newsletter </h1>
+        <h2 class="h2"> Receba ofertas e promoções especiais.</h2>
+        <h4> Você receberá e-mails promocionais de viagens e seus dados pessoais <br>não serão compartilhados. Para mais
+            informações, consulte as políticas de privacidade. </h4>
+        <form class="form">
+            <p> Nome:  <input type="text" name="nome" id="nome"></p>
+            <p> Email: <input type="text" name="email" id="email"></p>
+            <button class="enviar"> Enviar </button>
+        </form>
+        <h6 class="h6"> *Ao continuar, você concorda em receber e-mails promocionais.</h6>
+        <a> <img src="Imagens Home/newsletter.png"> </a>
+
+    </section>
+    <footer class="rodape">
+        <ul class="rodapeEsquerdo">
+            <li><a class="link1"> <strong>Contatos:</strong></a></li>
+            <li><a class="link2" href="#">E-mail: contato@tw.coderhouse</a></li>
+            <li><a class="link3" href="tel:1100000000" aria-label="telefone">Telefone: (33) 3333-2222</a></li>
+        </ul>
+        <ul class="rodapeDireito">
+            <li><a class="link4" href=""><img src="./imagens/instagram.png" alt="Instagram"></a></li>
+            <li><a class="link5" href=""><img src="./imagens/youtube.png" alt="Youtube"></a></li>
+            <li><a class="link6" href=""><img src="./imagens/facebook.png" alt="Facebook"></a></li>
+            <li><a class="link7" href=""><img src="./imagens/twitter.png" alt="Twitter"></a></li>
+        </ul>                   
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+
+    <script>
+       function myFunction() {
+  alert("Não esqueça de conferir seu email após o cadastro!");
+}
+        
+
+    </script>
+</body>
