@@ -12,7 +12,7 @@
 }
 
 nav{
-    background-color: black;
+    background-color: #000000;
 }
 
 .imagens-icones {
@@ -38,12 +38,12 @@ nav{
     background-color: #293495;
 }
 
-a{
-    color: white;
+li a{
+    color: #ffffff;
 }
 
 a:hover{
-    color: white;
+    color:#29954dda;
 }
 
 .nav-item {
@@ -92,7 +92,26 @@ p {
     display: flexbox;
 
 }
+/* Java API começa*/
+.javaapi {
+    align-items: center;
+    text-align: center;
+    padding: 60px; 
+   
+   }
 
+.javaapi> button {
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #293495b6;
+    color: #F8F8FF;
+}
+
+.band {
+    padding-top: 30px;
+}
+/* Java API termina*/
 .botao {
     padding-top: 5px;
     background-color: #ffffff;

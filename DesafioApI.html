@@ -19,24 +19,19 @@
             <li class="nav-item">
                 <a href="index.html"><img src="./imagens/logotw.png" alt="Logo TW"></a>
             </li>
-        </ul>
+        </ul>        
         <ul class="nav nav-pills" id="pills-tab" role="tablist">
             <li class="nav-item">
                 <a class="nav-link" id="pills-home-tab" href="index.html" role="tab" aria-controls="pills-home"
-                    aria-selected="true">Home</a>
+                    aria-selected="true">Pesquise seu Destino: </a> 
+                    
             </li>
-            <li class="nav-item">
-                <a class="nav-link" id="pills-profile-tab" href="blog.html" role="tab" aria-controls="pills-profile"
-                    aria-selected="false">Blog</a>
-            </li class="nav-item">
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
-                <button class="btn btn-primary " type="submit"><img src="./imagens/busca.png" alt="busca"></button>
-            </form>
+            
             <li>
                 <a href="#"></a>
             </li>
         </ul>
+
 
         <ul class="nav nav-pills" id="pills-tab" role="tablist">
             <li class="nav-item">
@@ -53,6 +48,14 @@
             <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
         </div>
     </nav>
+    <div class="javaapi">
+
+    <input type="text" id="paisDigitado" placeholder="Pesquise um país">
+    <button onclick="buscarBandeira()"> Buscar</button>
+    <br>
+    <div class="band" id="bandeira"></div>
+
+    </div>        
     <div>
         <a> <img class="imga" src="Imagens Home/Imagem-Home-Topo.jpg" alt="imagemhome"></a>
         
@@ -178,8 +181,11 @@
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
 
+    
 
-    <script src="java.js">  </script>
+    <script src="java.js"> 
+        
+    </script>
        
         
 
